@@ -33,7 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${codePro.variable}`}>{children}</body>
+      <body className={`${codePro.variable} _global_container`}>
+        {children}
+      </body>
     </html>
   );
 }
