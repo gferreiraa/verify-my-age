@@ -17,14 +17,13 @@
   }
   
   .phoneNumberInput {
-    width: 500px;
+    width: 460px;
     padding: 10px;
-    padding: 15px 0 15px 40px; 
+    padding: 15px 0 15px 80px; 
     border: 1px solid #ccc;
     border-radius: 50px;
     font-size: 16px;
     border-radius: 50px;
-
     border: 1px solid var(--sonic-silver);
     outline: none;
     transition: border-color 0.3s ease;

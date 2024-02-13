@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 768px) {
-  .stepper {
+  ._stepper {
     position: absolute;
     top: 20px;
     right: 20px;
