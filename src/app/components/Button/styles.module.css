@@ -1,0 +1,39 @@
+._button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 30px; 
+  border-radius: 35px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 20px;
+  height: 70px;
+  width: auto;
+  text-decoration: none;
+}
+
+._icon {
+  margin-right: 4px;
+}
+
+._label_icon {
+  font-family: 'Codec Pro', sans-serif;
+  font-weight: 600;
+}
+
+._label {
+  font-family: 'Codec Pro', sans-serif;
+  font-weight: 300;
+  color: var(--dark-grey);
+}
+
+@media (max-width: 768px) {
+  ._button {
+    width: 100%; 
+    max-width: 350px; 
+    height: 45px;
+    padding: 10px 30px;
+    margin-right: 0; 
+    margin-bottom: 20px;
+  }
+}

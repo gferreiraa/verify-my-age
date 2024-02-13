@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import ArrowIcon from '../../../icons/arrow_back.svg';
 import Logo from '../../../icons/logo.svg';
+import Stepper from '../Stepper/Stepper';
 import styles from './styles.module.css';
 
 export default function Header() {
   return (
-    <div>
+    <div className={styles._container}>
       <div className={styles._wrapper}>
         <Image
           width={135}
@@ -14,9 +15,7 @@ export default function Header() {
           alt="Company Brand"
           className={styles._logo}
         />
-        <div>
-          <div>--- ProgressBar here ---</div>
-        </div>
+        <Stepper steps={2} currentStep={1} />
       </div>
       <div className={styles._wrapper_content}>
         <Image
